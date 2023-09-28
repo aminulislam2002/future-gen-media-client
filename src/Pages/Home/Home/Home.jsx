@@ -1,7 +1,9 @@
+import OurWorkProcessSteps from "../OurWorkProcessSteps/OurWorkProcessSteps";
+
 const Home = () => {
   return (
     <div>
-      <h1>This is Home</h1>
+      <OurWorkProcessSteps></OurWorkProcessSteps>
     </div>
   );
 };
