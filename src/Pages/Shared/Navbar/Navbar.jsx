@@ -92,7 +92,7 @@ const NavBar = () => {
         >
           {/* Dropdown content */}
           <ul>
-            <Link to="/history-of-future-gen">
+            <Link to="/history-of-future-gen-media">
               <li className="text-white hover:bg-white hover:text-black ps-2 rounded">History of FutureGen</li>
             </Link>
             <Link to="/mission-and-vision">
