@@ -10,6 +10,7 @@ import MeetWithOurClients from "../Pages/OurClients/MeetWithOurClients";
 import OurClientsFeedback from "../Pages/OurClients/OurClientsFeedback";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
+import OurTeam from "../Pages/AboutUs/OurTeam";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "our-team",
+        element: <OurTeam></OurTeam>,
       },
       {
         path: "history-of-future-gen-media",
