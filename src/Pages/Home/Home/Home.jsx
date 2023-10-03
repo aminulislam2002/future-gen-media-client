@@ -1,7 +1,8 @@
 import OurWebServicesWhichWeProvide from "../OurWebServicesWhichWeProvide/OurWebServicesWhichWeProvide";
 import OurWorkProcessSteps from "../OurWorkProcessSteps/OurWorkProcessSteps";
-import OurWorks from "../OurWorks/OurWorks";
+import OurWorksForOurClients from "../OurWorksForOurClients/OurWorksForOurClients";
 import TopBanner from "../TopBanner/TopBanner";
+import WhatOurClientsSayAboutUS from "../WhatOurClientsSayAboutUS/WhatOurClientsSayAboutUS";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
       <TopBanner></TopBanner>
       <OurWorkProcessSteps></OurWorkProcessSteps>
       <OurWebServicesWhichWeProvide></OurWebServicesWhichWeProvide>
-      <OurWorks></OurWorks>
+      <OurWorksForOurClients></OurWorksForOurClients>
+      <WhatOurClientsSayAboutUS></WhatOurClientsSayAboutUS>
     </div>
   );
 };
