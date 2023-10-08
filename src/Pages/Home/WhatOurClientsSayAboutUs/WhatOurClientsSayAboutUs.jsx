@@ -1,24 +1,38 @@
-
 import { BiSolidUserRectangle } from "react-icons/bi";
 
 const clientTestimonials = [
   {
     id: 1,
-    name: "John Doe",
-    email: "john@example.com",
+    name: "Sahin Ahamed",
+    email: "sahinahamed124@gmail.com",
     comment:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum euismod elit, in laoreet metus malesuada sed. Ut lacinia ante sit amet quam feugiat, in egestas quam luctus.",
-    timestamp: "October 15, 2023, 10:30 AM", // Replace with actual timestamps
+    timestamp: "October 15, 2023, 10:30 AM",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Aiub Hasan",
+    email: "aiubhasan145@gmail.com",
+    comment:
+      "Pellentesque varius semper nunc, vel eleifend odio volutpat id. Praesent vel neque sit amet justo cursus bibendum a vel nulla. Vivamus eu auctor erat.Pellentesque varius semper nunc, vel eleifend odio volutpat id. Praesent vel neque sit amet justo cursus bibendum a vel nulla. Vivamus eu auctor erat.",
+    timestamp: "October 16, 2023, 2:45 PM",
+  },
+  {
+    id: 3,
+    name: "MD. Alamgir",
+    email: "alamgir027458@gmail.com",
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum euismod elit, in laoreet metus malesuada sed. Ut lacinia ante sit amet quam feugiat, in egestas quam luctus.",
+    timestamp: "October 15, 2023, 10:30 AM",
+  },
+  {
+    id: 4,
+    name: "",
     email: "jane@example.com",
     comment:
       "Pellentesque varius semper nunc, vel eleifend odio volutpat id. Praesent vel neque sit amet justo cursus bibendum a vel nulla. Vivamus eu auctor erat.Pellentesque varius semper nunc, vel eleifend odio volutpat id. Praesent vel neque sit amet justo cursus bibendum a vel nulla. Vivamus eu auctor erat.",
-    timestamp: "October 16, 2023, 2:45 PM", // Replace with actual timestamps
+    timestamp: "October 16, 2023, 2:45 PM",
   },
-  // Add more client testimonials as needed
 ];
 
 const truncateText = (text, maxLength) => {
@@ -45,7 +59,7 @@ const WhatOurClientsSayAboutUs = () => {
               </div>
             </div>
             <div className="mb-8">
-              <p className="text-gray-800">{truncateText(testimonial.comment, 250)}</p>
+              <p className="text-gray-800">{truncateText(testimonial.comment, 200)}</p>
             </div>
             <div className="text-gray-600 text-sm absolute bottom-4">
               <p>{testimonial.timestamp}</p>
