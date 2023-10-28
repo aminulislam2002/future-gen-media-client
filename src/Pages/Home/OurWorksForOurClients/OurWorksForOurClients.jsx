@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     name: "Golbunia Nesaria Dakhil Madrasah",
     imageUrl: image2,
-    liveDemoUrl: "https://golbuniamadrasha.com/",
+    liveDemoUrl: "https://golbunia-nesaria-madrasah.web.app/",
   },
   {
     id: 3,
